@@ -1,0 +1,31 @@
+@import './overwrite.scss';
+@import './fonts.scss';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Metropolis-Regular !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.announcement {
+  color: red;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.ml-3 {
+  margin-left: 3rem;
+}
+.text-center {
+  text-align: center;
+}
